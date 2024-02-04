@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #e4d6d6;
+    padding: 30px;
+    border-radius: 8%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #2c9eeb;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#result-box {
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    border-radius: 4px;
+}
+
+/* BMI Result Colors */
+#result-box.obese {
+    background-color: darkred;
+}
+
+#result-box.underweight {
+    background-color: red;
+}
+
+#result-box.overweight {
+    background-color: orange;
+}
+
+#result-box.normal {
+    background-color: green;
+}
