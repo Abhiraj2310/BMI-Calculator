@@ -13,6 +13,7 @@ body {
     padding: 30px;
     border-radius: 8%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Added */
 }
 
 label {
@@ -59,4 +60,10 @@ button {
 
 #result-box.normal {
     background-color: green;
+}
+
+#giphy-embed {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
